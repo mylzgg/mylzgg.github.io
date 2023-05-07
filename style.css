@@ -1,0 +1,31 @@
+@font-face {
+  font-family: MonotonRegular;
+  src: url(fonts/Monoton-Regular.ttf);
+}
+
+@font-face {
+  font-family: MysteryQuestRegular;
+  src: url(fonts/MysteryQuest-Regular.ttf);
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: #32CD32;
+  font-family: MonotonRegular;
+  font-size: 64px;
+  font-weight: normal;
+}
+
+#turtle,
+#baseball {
+  width: 400px;
+}
+
+#end {
+  font-size: 64px;
+  font-family: MysteryQuestRegular;
+  color: #32CD32;
+}
