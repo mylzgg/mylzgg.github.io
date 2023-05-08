@@ -9,10 +9,12 @@
 }
 
 body {
+  background-color: #40e0d0;
   text-align: center;
 }
 
 h1 {
+  background-color: white;
   color: #32CD32;
   font-family: MonotonRegular;
   font-size: 64px;
@@ -25,7 +27,22 @@ h1 {
 }
 
 #end {
+  background-color: white;
   font-size: 64px;
   font-family: MysteryQuestRegular;
   color: #32CD32;
+}
+
+#carnage {
+  position: fixed;
+  bottom: 0;
+  left: 20px;
+  width: 100px;
+}
+
+#riot {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  width: 120px;
 }
