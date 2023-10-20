@@ -42,9 +42,13 @@ img {
   width: 400px;
 }
 
-#zelda {
+#msm {
   width: 600px;
-  border: 5px double #7DF9FF;
+  border: 600px;
+  border-left-style: dotted red;
+  border-top-style: dotted red;
+  border-bottom-style: solid blue;
+  border-right-style: solid blue;
 }
 
 #drums {
@@ -78,10 +82,17 @@ img {
   width: 120px;
 }
 
+#tabs {
+  position: fixed;
+  bottom: 200px;
+  left: 0px;
+  width: 150px;
+}
+
 #monke1 {
   position: fixed;
   bottom: 200px;
-  left: 20px;
+  left: 0px;
   width: 150px;
 }
 
@@ -90,6 +101,27 @@ img {
   bottom: 200px;
   right: 20px;
   width: 150px;
+}
+
+#smurfcat {
+  position: absolute;
+  top: 2000px;
+  right: 20px;
+  width: 40px;
+}
+
+#kitty {
+  position: absolute;
+  top: 2600px;
+  left: 50%;
+  width: 40px;
+}
+
+#cheese {
+  position: absolute;
+  top: 1420px;
+  left: 69%;
+  width: 40px;
 }
 
 #gorilla-tag {
@@ -115,4 +147,13 @@ img {
   #end {
     font-size: 42px;
   }
+}
+
+body.spin * {
+  animation: spin .0001s infinite linear;
+}
+
+@keyframes spin {
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg); }
 }
